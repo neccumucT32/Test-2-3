@@ -6,13 +6,13 @@ const extractNumbers = (str) => {
 console.log(extractNumbers("a1fg5hj6"));
 
 // 2
-// function fibonacci(prev = 0, curr = 1) {
-//   if (prev > 144) return;
-//   console.log(prev);
-//   setTimeout(() => fibonacci(curr, prev + curr), 1000); // Рекурсивный вызов с задержкой 1 секунда
-// }
+ function fibonacci(prev = 0, curr = 1) {
+   if (prev > 144) return;
+   console.log(prev);
+   setTimeout(() => fibonacci(curr, prev + curr), 1000); // Рекурсивный вызов с задержкой 1 секунда
+ }
 
-// fibonacci();
+ fibonacci();
 
 // 3
 
